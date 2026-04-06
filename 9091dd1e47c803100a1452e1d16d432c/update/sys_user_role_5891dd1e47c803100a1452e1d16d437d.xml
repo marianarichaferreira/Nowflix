@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Approve or Reprove Reviews</description>
+        <elevated_privilege>false</elevated_privilege>
+        <federated_id>ZyC1LtJCAI3hggO1E2hy73OiOpskWxQ76i6a6N99Gig=</federated_id>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_221517_nowflix.moderator</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>moderator</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-06 18:55:00</sys_created_on>
+        <sys_id>5891dd1e47c803100a1452e1d16d437d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_221517_nowflix.moderator</sys_name>
+        <sys_package display_value="Nowflix" source="x_221517_nowflix">9091dd1e47c803100a1452e1d16d432c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">9091dd1e47c803100a1452e1d16d432c</sys_scope>
+        <sys_update_name>sys_user_role_5891dd1e47c803100a1452e1d16d437d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-06 18:55:00</sys_updated_on>
+    </sys_user_role>
+</record_update>
