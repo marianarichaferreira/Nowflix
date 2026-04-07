@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Nowflix">b129da624780c3100a1452e1d16d4337</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_221517_nowflix_review">state=^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint>List of Reviews</hint>
+        <homepage/>
+        <image/>
+        <link_type>SEPARATOR</link_type>
+        <map_page/>
+        <mobile_title>Directors</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_221517_nowflix_review</name>
+        <order>500</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-07 18:52:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bf5a52264780c3100a1452e1d16d43b9</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Reviews</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Nowflix" source="x_221517_nowflix">9091dd1e47c803100a1452e1d16d432c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">9091dd1e47c803100a1452e1d16d432c</sys_scope>
+        <sys_update_name>sys_app_module_bf5a52264780c3100a1452e1d16d43b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-07 19:04:39</sys_updated_on>
+        <timeline_page/>
+        <title>Reviews</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Nowflix">9091dd1e47c803100a1452e1d16d432c</application>
+        <file_path/>
+        <instance_id>25f898e22bc36658323ef9f66e91bfb2</instance_id>
+        <instance_name>dev351695</instance_name>
+        <name>sys_app_module_bf5a52264780c3100a1452e1d16d43b9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Nowflix">b129da624780c3100a1452e1d16d4337</application><assessment/><device_type/><filter table="x_221517_nowflix_review">state=^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value=""/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><hint>List of Reviews</hint><homepage/><image/><link_type>SEPARATOR</link_type><map_page/><mobile_title>Directors</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_221517_nowflix_review</name><order>500</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-07 18:52:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bf5a52264780c3100a1452e1d16d43b9</sys_id><sys_mod_count>7</sys_mod_count><sys_name>Reviews</sys_name><sys_overrides/><sys_package display_value="Nowflix" source="x_221517_nowflix">9091dd1e47c803100a1452e1d16d432c</sys_package><sys_policy/><sys_scope display_value="Nowflix">9091dd1e47c803100a1452e1d16d432c</sys_scope><sys_update_name>sys_app_module_bf5a52264780c3100a1452e1d16d43b9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-07 19:04:39</sys_updated_on><timeline_page/><title>Reviews</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-434965474</payload_hash>
+        <record_name>Reviews</record_name>
+        <reverted_from/>
+        <source>460ad5da470c03100a1452e1d16d43b0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-07 19:04:39</sys_created_on>
+        <sys_id>3f5dd2aa4780c3100a1452e1d16d43f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d695521240000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-07 19:04:39</sys_updated_on>
+        <type>Module</type>
+        <update_guid>bb5dd2aa8980c31017717eb2139b7ff8</update_guid>
+        <update_guid_history>bb5dd2aa8980c31017717eb2139b7ff8:-434965474,75bc5e2ac380c310c06f92c2dc7161e5:-1538947579,afbb1666f480c3108f8306cc03720082:-289290716,ec3bde660f80c310912e697ba24930cd:-99824819,781b9e264b80c3101f4a1006c0cf123e:1260987030,71cad2664b80c3106a4729c2f0d01c69:-2002868452,c99a96265180c310f1ad733b765f95a6:1760491845,e77a52266c80c3106b41a118bed44585:-1758383997</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Reviews">8c2ed6aa4780c3100a1452e1d16d433e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-07 19:07:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>011b02294d454a16800296f48dc0b731</sys_id>
+        <sys_metadata>bf5a52264780c3100a1452e1d16d43b9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reviews</sys_name>
+        <sys_package display_value="Nowflix" source="x_221517_nowflix">9091dd1e47c803100a1452e1d16d432c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">9091dd1e47c803100a1452e1d16d432c</sys_scope>
+        <sys_scope_delete display_value="">34547d96935d4cbaa32e38b537acf221</sys_scope_delete>
+        <sys_update_name>sys_app_module_bf5a52264780c3100a1452e1d16d43b9</sys_update_name>
+        <sys_update_version display_value="sys_app_module_bf5a52264780c3100a1452e1d16d43b9">3f5dd2aa4780c3100a1452e1d16d43f9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-07 19:07:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="60a48a6a47cc83100a1452e1d16d435f" extends="task" label="Suggestion" max_length="40" name="x_221517_nowflix_suggestion" type="collection">
+        <element label="Reproval Reason" max_length="4000" name="reproval_reason" type="string"/>
+        <element label="Title" max_length="250" name="title" type="string"/>
+        <element label="Release Year" max_length="4" name="release_year" type="string"/>
+    </element>
+</database>
