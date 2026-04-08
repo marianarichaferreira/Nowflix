@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Media Review">1ce09b3a478447100a1452e1d16d4338</catalog_item>
+        <catalog_variable>IO:05fe13f2470847100a1452e1d16d43aa</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-08 19:22:34</sys_created_on>
+        <sys_id>d9faebba474847100a1452e1d16d437a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>media</sys_name>
+        <sys_package display_value="Nowflix" source="x_221517_nowflix">9091dd1e47c803100a1452e1d16d432c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">9091dd1e47c803100a1452e1d16d432c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_d9faebba474847100a1452e1d16d437a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-08 19:22:34</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Makes media and rating mandatory">212923f6474847100a1452e1d16d43c8</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>media</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=d9faebba474847100a1452e1d16d437a"/>
+</record_update>
