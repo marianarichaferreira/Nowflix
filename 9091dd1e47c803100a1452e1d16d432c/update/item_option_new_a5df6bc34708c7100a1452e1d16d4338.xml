@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Media Review">1ce09b3a478447100a1452e1d16d4338</cat_item>
+        <cat_item display_value="Media Review Scripting">d1df234f47c4c7100a1452e1d16d431e</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -20,7 +20,7 @@
         <dynamic_default_value/>
         <dynamic_ref_qual/>
         <dynamic_value_dot_walk_path/>
-        <dynamic_value_field display_value="What is the movie/series you wanna make a review about?">05fe13f2470847100a1452e1d16d43aa</dynamic_value_field>
+        <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
         <field/>
@@ -45,14 +45,14 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>poster</name>
+        <name>synopsis</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>180</order>
+        <order>140</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Poster</question_text>
+        <question_text>Synopsis</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -76,24 +76,24 @@
         <scale_min>0</scale_min>
         <show_help>false</show_help>
         <show_help_on_load>false</show_help_on_load>
-        <sp_widget display_value="poster">c677ffb247c847100a1452e1d16d43ef</sp_widget>
+        <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-08 20:20:28</sys_created_on>
-        <sys_id>62473bb247c847100a1452e1d16d43c1</sys_id>
+        <sys_created_on>2026-04-09 14:21:56</sys_created_on>
+        <sys_id>a5df6bc34708c7100a1452e1d16d4338</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>Poster</sys_name>
+        <sys_name>Synopsis</sys_name>
         <sys_package display_value="Nowflix" source="x_221517_nowflix">9091dd1e47c803100a1452e1d16d432c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">9091dd1e47c803100a1452e1d16d432c</sys_scope>
-        <sys_update_name>item_option_new_62473bb247c847100a1452e1d16d43c1</sys_update_name>
+        <sys_update_name>item_option_new_a5df6bc34708c7100a1452e1d16d4338</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-09 13:38:24</sys_updated_on>
+        <sys_updated_on>2026-04-09 14:24:49</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
-        <type>14</type>
+        <type>2</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -109,39 +109,39 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=62473bb247c847100a1452e1d16d43c1"/>
-    <fx_price action="delete_multiple" query="id=62473bb247c847100a1452e1d16d43c1"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=a5df6bc34708c7100a1452e1d16d4338"/>
+    <fx_price action="delete_multiple" query="id=a5df6bc34708c7100a1452e1d16d4338"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
-        <currency display_value="BRL">BRL</currency>
+        <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>62473bb247c847100a1452e1d16d43c1</id>
+        <id>a5df6bc34708c7100a1452e1d16d4338</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-08 20:20:29</sys_created_on>
-        <sys_id>5458bb3647c847100a1452e1d16d433d</sys_id>
+        <sys_created_on>2026-04-09 14:21:56</sys_created_on>
+        <sys_id>6ddf6bc34708c7100a1452e1d16d4346</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-08 20:20:29</sys_updated_on>
+        <sys_updated_on>2026-04-09 14:21:56</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
-        <currency display_value="BRL">BRL</currency>
+        <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>62473bb247c847100a1452e1d16d43c1</id>
+        <id>a5df6bc34708c7100a1452e1d16d4338</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-08 20:20:29</sys_created_on>
-        <sys_id>9058bb3647c847100a1452e1d16d433c</sys_id>
+        <sys_created_on>2026-04-09 14:21:56</sys_created_on>
+        <sys_id>2ddf6bc34708c7100a1452e1d16d4345</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-08 20:20:29</sys_updated_on>
+        <sys_updated_on>2026-04-09 14:21:56</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
