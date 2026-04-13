@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="Nowflix">6b16cd20471843500a1452e1d16d43bb</category>
+        <order>600</order>
+        <property display_value="x_221517_nowflix.integration_retry_timeout" name="x_221517_nowflix.integration_retry_timeout">f3b74124471843500a1452e1d16d436e</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-13 18:01:43</sys_created_on>
+        <sys_id>dc88c964471843500a1452e1d16d43c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_221517_nowflix.integration_retry_timeout.Nowflix</sys_name>
+        <sys_package display_value="Nowflix" source="x_221517_nowflix">9091dd1e47c803100a1452e1d16d432c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">9091dd1e47c803100a1452e1d16d432c</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_dc88c964471843500a1452e1d16d43c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-13 18:01:43</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

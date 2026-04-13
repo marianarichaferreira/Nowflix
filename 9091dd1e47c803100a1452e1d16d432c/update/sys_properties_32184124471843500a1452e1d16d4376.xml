@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Media synposis mode (choose between full or short)</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_221517_nowflix.integration_plot</name>
+        <read_roles/>
+        <suffix>integration_plot</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-13 17:59:59</sys_created_on>
+        <sys_id>32184124471843500a1452e1d16d4376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_221517_nowflix.integration_plot</sys_name>
+        <sys_package display_value="Nowflix" source="x_221517_nowflix">9091dd1e47c803100a1452e1d16d432c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">9091dd1e47c803100a1452e1d16d432c</sys_scope>
+        <sys_update_name>sys_properties_32184124471843500a1452e1d16d4376</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-13 17:59:59</sys_updated_on>
+        <type>string</type>
+        <value>full</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=32184124471843500a1452e1d16d4376"/>
+</record_update>
