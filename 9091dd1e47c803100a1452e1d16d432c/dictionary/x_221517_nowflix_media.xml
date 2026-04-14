@@ -8,6 +8,7 @@
         <element label="Genre" max_length="1024" name="genre" reference="x_221517_nowflix_genre" type="glide_list"/>
         <element default="0" label="Metascore" max_length="40" name="metascore" type="integer"/>
         <element label="Synopsis" max_length="4000" name="synopsis" type="string"/>
+        <element label="Integration Error Message" max_length="1000" name="integration_error_message" type="string"/>
         <element choice="1" default="1" label="Integration State" max_length="40" name="integration_state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Integrating" sequence="200" value="2"/>
@@ -28,7 +29,7 @@
             </choice>
         </element>
         <element default="0" label="Average rating" max_length="255" name="average_rating" type="float"/>
-        <element choice="1" label="State" max_length="40" name="state" type="choice">
+        <element choice="1" default="Draft" label="State" max_length="40" name="state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Draft" sequence="100" value="1"/>
                 <element inactive_on_update="false" label="Completed" sequence="200" value="3"/>
@@ -36,7 +37,7 @@
         </element>
         <element label="Country" max_length="250" name="country" type="string"/>
         <element label="Website" max_length="1024" name="website" type="url"/>
-        <element label="Realese Date" max_length="40" name="realese_date" type="glide_date"/>
+        <element label="Release Date" max_length="40" name="realese_date" type="glide_date"/>
         <element label="Writers" max_length="4000" name="writers" type="string"/>
     </element>
 </database>

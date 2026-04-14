@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="realese_date" table="x_221517_nowflix_media">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="integration_error_message" table="x_221517_nowflix_media">
         <active>true</active>
         <array>false</array>
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice/>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Release Date</column_label>
+        <column_label>Integration Error Message</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,15 +21,15 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>realese_date</element>
+        <element>integration_error_message</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">glide_date</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>1000</max_length>
         <name>x_221517_nowflix_media</name>
         <next_element/>
         <primary>false</primary>
@@ -46,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-07 16:06:20</sys_created_on>
-        <sys_name>Release Date</sys_name>
+        <sys_created_on>2026-04-14 14:14:21</sys_created_on>
+        <sys_name>Integration Error Message</sys_name>
         <sys_package display_value="Nowflix" source="x_221517_nowflix">9091dd1e47c803100a1452e1d16d432c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">9091dd1e47c803100a1452e1d16d432c</sys_scope>
-        <sys_update_name>sys_dictionary_x_221517_nowflix_media_realese_date</sys_update_name>
+        <sys_update_name>sys_dictionary_x_221517_nowflix_media_integration_error_message</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-14 17:48:36</sys_updated_on>
+        <sys_updated_on>2026-04-14 14:14:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

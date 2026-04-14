@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>state</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-14 14:21:48</sys_created_on>
+        <sys_id>14cf59f44758c3500a1452e1d16d437f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>state</sys_name>
+        <sys_package display_value="Nowflix" source="x_221517_nowflix">9091dd1e47c803100a1452e1d16d432c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">9091dd1e47c803100a1452e1d16d432c</sys_scope>
+        <sys_update_name>sys_ui_policy_action_14cf59f44758c3500a1452e1d16d437f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-14 14:21:48</sys_updated_on>
+        <table>x_221517_nowflix_media</table>
+        <ui_policy display_value="Default read-only  Fields">036fd9f44758c3500a1452e1d16d4393</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=14cf59f44758c3500a1452e1d16d437f"/>
+</record_update>
