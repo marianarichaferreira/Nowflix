@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-04-07 17:32:47</sys_created_on>
-            <sys_id>bd58c2624700c3100a1452e1d16d4378</sys_id>
+            <sys_created_on>2026-04-15 18:45:36</sys_created_on>
+            <sys_id>2ab5e385471887500a1452e1d16d4350</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_221517_nowflix_suggestion" sys_domain="global" view="Default view">b4a442a647cc83100a1452e1d16d438e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-04-07 17:32:47</sys_updated_on>
+            <sys_updated_on>2026-04-15 18:45:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,27 +18,27 @@
             <element>title</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-04-07 17:32:47</sys_created_on>
-            <sys_id>3d58c2624700c3100a1452e1d16d4379</sys_id>
+            <sys_created_on>2026-04-15 18:45:36</sys_created_on>
+            <sys_id>eeb5e385471887500a1452e1d16d4351</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_221517_nowflix_suggestion" sys_domain="global" view="Default view">b4a442a647cc83100a1452e1d16d438e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-04-07 17:32:47</sys_updated_on>
+            <sys_updated_on>2026-04-15 18:45:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>opened_by</element>
+            <element>type</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-04-07 17:32:47</sys_created_on>
-            <sys_id>b958c2624700c3100a1452e1d16d437a</sys_id>
+            <sys_created_on>2026-04-15 18:45:36</sys_created_on>
+            <sys_id>6eb5e385471887500a1452e1d16d4352</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_221517_nowflix_suggestion" sys_domain="global" view="Default view">b4a442a647cc83100a1452e1d16d438e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-04-07 17:32:47</sys_updated_on>
+            <sys_updated_on>2026-04-15 18:45:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-04-07 17:32:47</sys_created_on>
-            <sys_id>3958c2624700c3100a1452e1d16d437b</sys_id>
+            <sys_created_on>2026-04-15 18:45:36</sys_created_on>
+            <sys_id>eab5e385471887500a1452e1d16d4353</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_221517_nowflix_suggestion" sys_domain="global" view="Default view">b4a442a647cc83100a1452e1d16d438e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-04-07 17:32:47</sys_updated_on>
+            <sys_updated_on>2026-04-15 18:45:36</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>state</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-04-07 17:32:47</sys_created_on>
-            <sys_id>b558c2624700c3100a1452e1d16d437c</sys_id>
+            <sys_created_on>2026-04-15 18:45:36</sys_created_on>
+            <sys_id>6ab5e385471887500a1452e1d16d4354</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_221517_nowflix_suggestion" sys_domain="global" view="Default view">b4a442a647cc83100a1452e1d16d438e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-04-07 17:32:47</sys_updated_on>
+            <sys_updated_on>2026-04-15 18:45:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,27 @@
             <element>release_year</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-04-07 17:32:47</sys_created_on>
-            <sys_id>3558c2624700c3100a1452e1d16d437d</sys_id>
+            <sys_created_on>2026-04-15 18:45:36</sys_created_on>
+            <sys_id>e6b5e385471887500a1452e1d16d4355</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_221517_nowflix_suggestion" sys_domain="global" view="Default view">b4a442a647cc83100a1452e1d16d438e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-04-07 17:32:47</sys_updated_on>
+            <sys_updated_on>2026-04-15 18:45:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-15 18:45:36</sys_created_on>
+            <sys_id>66b5e385471887500a1452e1d16d4356</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_221517_nowflix_suggestion" sys_domain="global" view="Default view">b4a442a647cc83100a1452e1d16d438e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-15 18:45:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
