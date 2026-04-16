@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>false</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition table="x_221517_nowflix_m2m_media_actor">x_221517_nowflix_media.state!=3^EQ<item display_value="Completed" endquery="false" field="x_221517_nowflix_media.state" goto="false" newquery="false" operator="!=" or="false" value="3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <controlled_by_refs/>
+        <decision_type>deny</decision_type>
+        <description>Deny create for records in x_221517_nowflix_m2m_media_actor, unless the ACL condition (x_221517_nowflix_media.state!=3^EQ) evaluates to true.</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_221517_nowflix_m2m_media_actor</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 20:30:44</sys_created_on>
+        <sys_id>eef6816947904b500a1452e1d16d43f1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_221517_nowflix_m2m_media_actor</sys_name>
+        <sys_package display_value="Nowflix" source="x_221517_nowflix">9091dd1e47c803100a1452e1d16d432c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">9091dd1e47c803100a1452e1d16d432c</sys_scope>
+        <sys_update_name>sys_security_acl_eef6816947904b500a1452e1d16d43f1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 20:31:45</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Nowflix">9091dd1e47c803100a1452e1d16d432c</application>
+        <file_path/>
+        <instance_id>25f898e22bc36658323ef9f66e91bfb2</instance_id>
+        <instance_name>dev351695</instance_name>
+        <name>sys_security_acl_eef6816947904b500a1452e1d16d43f1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>false</admin_overrides><advanced>false</advanced><applies_to/><condition table="x_221517_nowflix_m2m_media_actor">x_221517_nowflix_media.state!=3^EQ<item display_value="Completed" endquery="false" field="x_221517_nowflix_media.state" goto="false" newquery="false" operator="!=" or="false" value="3"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><controlled_by_refs/><decision_type>deny</decision_type><description>Deny create for records in x_221517_nowflix_m2m_media_actor, unless the ACL condition (x_221517_nowflix_media.state!=3^EQ) evaluates to true.</description><local_or_existing>Local</local_or_existing><name>x_221517_nowflix_m2m_media_actor</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-16 20:30:44</sys_created_on><sys_id>eef6816947904b500a1452e1d16d43f1</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_221517_nowflix_m2m_media_actor</sys_name><sys_package display_value="Nowflix" source="x_221517_nowflix">9091dd1e47c803100a1452e1d16d432c</sys_package><sys_policy/><sys_scope display_value="Nowflix">9091dd1e47c803100a1452e1d16d432c</sys_scope><sys_update_name>sys_security_acl_eef6816947904b500a1452e1d16d43f1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-16 20:31:45</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-2025239614</payload_hash>
+        <record_name>x_221517_nowflix_m2m_media_actor</record_name>
+        <reverted_from/>
+        <source>460ad5da470c03100a1452e1d16d43b0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 20:31:46</sys_created_on>
+        <sys_id>9f97c1a947904b500a1452e1d16d43a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d97fe1b9d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 20:31:46</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>1f97c1a91e904b50c43d406cea0603a0</update_guid>
+        <update_guid_history>1f97c1a91e904b50c43d406cea0603a0:-2025239614,1467c56932904b50f1ee3ac675c9b35f:-267417170</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 20:38:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>33c18d656a0545c3a0d7489044450811</sys_id>
+        <sys_metadata>eef6816947904b500a1452e1d16d43f1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_221517_nowflix_m2m_media_actor</sys_name>
+        <sys_package display_value="Nowflix" source="x_221517_nowflix">9091dd1e47c803100a1452e1d16d432c</sys_package>
+        <sys_parent display_value="x_221517_nowflix_m2m_media_actor">5d8562ea47c0c3100a1452e1d16d434e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">9091dd1e47c803100a1452e1d16d432c</sys_scope>
+        <sys_scope_delete display_value="">34547d96935d4cbaa32e38b537acf221</sys_scope_delete>
+        <sys_update_name>sys_security_acl_eef6816947904b500a1452e1d16d43f1</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_eef6816947904b500a1452e1d16d43f1">9f97c1a947904b500a1452e1d16d43a1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 20:38:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
