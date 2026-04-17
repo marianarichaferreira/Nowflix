@@ -51,7 +51,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Service Catalog.Nowflix Suggestion</sys_name>
         <sys_package display_value="Nowflix" source="x_221517_nowflix">9091dd1e47c803100a1452e1d16d432c</sys_package>
-        <sys_parent display_value="Nowflix Suggestion">1b566bc5471887500a1452e1d16d43b2</sys_parent>
+        <sys_parent display_value="Media Suggestion">1b566bc5471887500a1452e1d16d43b2</sys_parent>
         <sys_policy/>
         <sys_scope display_value="Nowflix">9091dd1e47c803100a1452e1d16d432c</sys_scope>
         <sys_scope_delete display_value="">34547d96935d4cbaa32e38b537acf221</sys_scope_delete>

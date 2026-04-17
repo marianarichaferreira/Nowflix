@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
-        <catalog_item display_value="Nowflix Suggestion">1b566bc5471887500a1452e1d16d43b2</catalog_item>
+        <catalog_item display_value="Media Suggestion">1b566bc5471887500a1452e1d16d43b2</catalog_item>
         <catalog_variable>IO:be076749471887500a1452e1d16d43de</catalog_variable>
         <cleared>false</cleared>
         <disabled>ignore</disabled>

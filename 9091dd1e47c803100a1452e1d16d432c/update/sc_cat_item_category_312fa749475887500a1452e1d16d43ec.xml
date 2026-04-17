@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Nowflix Suggestion">1b566bc5471887500a1452e1d16d43b2</sc_cat_item>
+        <sc_cat_item display_value="Media Suggestion">1b566bc5471887500a1452e1d16d43b2</sc_cat_item>
         <sc_category display_value="Nowflix">1d0f4376478447100a1452e1d16d43c4</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>
