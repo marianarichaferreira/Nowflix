@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>POST</http_method>
+        <name>Create/Update Media</name>
+        <operation_script><![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    var media_array = request.body.data;
+    if (JSON.stringify(media_array) == "{}") {
+        response.setStatus(400);
+        return "Não foi recebida nenhuma media.";
+    }
+	if(media_array.length == 0) {
+        response.setStatus(400);
+        return "Media está vazia.";
+    }
+
+    try {
+        var inputs = {};
+        inputs['media_array'] = JSON.stringify(media_array); // Array.Object 
+
+        // Start Asynchronously: Uncomment to run in background. Code snippet will not have access to outputs.
+        // sn_fd.FlowAPI.getRunner().subflow('x_221517_nowflix.media_inbound').inBackground().withInputs(inputs).run();
+
+        // Execute Synchronously: Run in foreground. Code snippet has access to outputs.
+        var result = sn_fd.FlowAPI.getRunner().subflow('x_221517_nowflix.media_inbound').inForeground().withInputs(inputs).run();
+        var outputs = result.getOutputs();
+
+        // // Get Outputs:
+        // // Note: outputs can only be retrieved when executing synchronously.
+        // var result = outputs['result']; // True/False
+        // var message = outputs['message']; // String
+        // var processed_movies = outputs['processed_movies']; // Array.Object
+
+        return outputs;
+
+    } catch (ex) {
+        var message = ex.getMessage();
+        gs.error(message);
+    }
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_221517_nowflix/omdb/create_update_media</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/create_update_media</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-20 17:27:24</sys_created_on>
+        <sys_id>c8a30df247d483900a1452e1d16d4304</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Create/Update Media</sys_name>
+        <sys_package display_value="Nowflix" source="x_221517_nowflix">9091dd1e47c803100a1452e1d16d432c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">9091dd1e47c803100a1452e1d16d432c</sys_scope>
+        <sys_update_name>sys_ws_operation_c8a30df247d483900a1452e1d16d4304</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-20 20:40:20</sys_updated_on>
+        <web_service_definition display_value="OMDB">f073c5f647d483900a1452e1d16d43f2</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>
