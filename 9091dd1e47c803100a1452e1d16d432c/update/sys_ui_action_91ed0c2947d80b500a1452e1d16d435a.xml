@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>current.state == 1 &amp;&amp; current.integration_state == 3</condition>
+        <condition>current.state.toString() == "1" &amp;&amp; current.integration_state.toString() == "3"  </condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -30,12 +30,61 @@
         <name>Complete</name>
         <onclick/>
         <order>100</order>
-        <script><![CDATA[if (typeof window == 'undefined') {
-    current.state = 3;
-    current.update();
-    action.setRedirectURL(current); 
-}]]></script>
-        <show_insert>true</show_insert>
+        <script><![CDATA[//current.state = 3;
+current.setValue("state", "3");
+
+current.update();
+
+//cria o glide record de media
+var grMedia = new GlideRecord("x_221517_nowflix_media");
+
+//monta a query
+// grMedia.addQuery("title", current.getValue("title"));
+// grMedia.addQuery("type", current.getValue("type"));
+// grMedia.addQuery("release_year", current.getValue("release_year"));
+// grMedia.addQuery("sys_id", "!=", current.getValue("sys_id"));
+
+grMedia.addEncodedQuery("title=" + current.getValue("title") + "^type=" + current.getValue("type") + "^release_year=" + current.getValue("release_year") + "^sys_id!=" + current.getValue("sys_id"));
+
+//executa a query
+grMedia.query();
+
+//laço de repetição
+while(grMedia.next()){
+	//lógica
+	grMedia.setValue("state", "7");
+	grMedia.setValue("genre", "");
+	grMedia.setValue("realese_date", "");
+	grMedia.setValue("category", "");
+	grMedia.setValue("synopsis", "");
+	grMedia.setValue("writers", "");
+	grMedia.setValue("production", "");
+	grMedia.setValue("poster", "");
+	grMedia.setValue("website", "");
+	grMedia.setValue("average_rating", "");
+	grMedia.setValue("imdb_rating", "");
+	grMedia.setValue("metascore", "");
+	grMedia.setValue("awards", "");
+    grMedia.setValue("language", "");
+    grMedia.setValue("country", "");
+    grMedia.setValue("integration_state", "3");//mantém o int state sucesso
+    // grMedia.setValue("integration_error_message", "");
+ 
+    var grMediaActor = new GlideRecord("x_221517_nowflix_m2m_media_actor");
+    grMediaActor.addEncodedQuery("x_221517_nowflix_media=" + grMedia.getValue("sys_id"));
+    grMediaActor.query();
+    grMediaActor.deleteMultiple();
+ 
+    var grMediaDirector = new GlideRecord("x_221517_nowflix_m2m_media_director");
+    grMediaDirector.addEncodedQuery("x_221517_nowflix_media=" + grMedia.getValue("sys_id"));
+    grMediaDirector.query();
+    grMediaDirector.deleteMultiple();
+
+	grMedia.update();
+}
+
+action.setRedirectURL(current);]]></script>
+        <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
         <show_update>true</show_update>
@@ -45,7 +94,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>91ed0c2947d80b500a1452e1d16d435a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Complete</sys_name>
         <sys_overrides/>
         <sys_package display_value="Nowflix" source="x_221517_nowflix">9091dd1e47c803100a1452e1d16d432c</sys_package>
@@ -53,7 +102,7 @@
         <sys_scope display_value="Nowflix">9091dd1e47c803100a1452e1d16d432c</sys_scope>
         <sys_update_name>sys_ui_action_91ed0c2947d80b500a1452e1d16d435a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-16 16:24:48</sys_updated_on>
+        <sys_updated_on>2026-04-22 13:51:47</sys_updated_on>
         <table>x_221517_nowflix_media</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
