@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">12c73be747d883100a1452e1d16d434e</canvas>
+        <component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component>
+        <component_props>{"scoreSize":"auto","headingPosition":"top","sparklineStyle":"area","scoreIcon":"video-chat-fill","iconStyle":"background","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"showZero":true,"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":true,"showLoadingIndicator":false,"showHeaderSeparator":true,"contextMenuActions":[],"headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"sortByOrder":"desc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showFilterAsSeparateSeries":false,"componentId":"gsmnoj7q","id":"colorConfig","value":{"type":"singleColor","values":[{"color":"65b30268a9fe3dba002eaa66fb56b2b2","iconColor":"65b30268a9fe3dba002eaa66fb56b2b2","metric":"ZEdGaWJHVjRYekl5TVRVeE4xOXViM2RtYkdsNFgyMWxaR2xoTVRjM05qazJNVE13T1RreU9RPT0xNzc2OTYxMzEzNzE0","rules":[]}]},"noDebounce":true,"propLabel":"Colors","filterPerMetric":[],"sortBy":"value","configVersion":"23.0.0-ci-SNAPSHOT","colorConfig":{"type":"singleColor","values":[{"color":"65b30268a9fe3dba002eaa66fb56b2b2","iconColor":"65b30268a9fe3dba002eaa66fb56b2b2","metric":"ZEdGaWJHVjRYekl5TVRVeE4xOXViM2RtYkdsNFgyMWxaR2xoTVRjM05qazJNVE13T1RreU9RPT0xNzc2OTYxMzEzNzE0","rules":[]}]},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Media","sourceType":"table","tableOrViewName":"x_221517_nowflix_media","filterQuery":"type=movie^state=3","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzIyMTUxN19ub3dmbGl4X21lZGlhMTc3Njk2MTMwOTkyOQ==","dataCategories":["trend","group","simple"]}],"metrics":[{"dataSource":"dGFibGV4XzIyMTUxN19ub3dmbGl4X21lZGlhMTc3Njk2MTMwOTkyOQ==","id":"ZEdGaWJHVjRYekl5TVRVeE4xOXViM2RtYkdsNFgyMWxaR2xoTVRjM05qazJNVE13T1RreU9RPT0xNzc2OTYxMzEzNzE0","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"headerTitle":"Number of Medias"}</component_props>
+        <h>8</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-23 16:22:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fca1943f479c83100a1452e1d16d432d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Nowflix" source="x_221517_nowflix">9091dd1e47c803100a1452e1d16d432c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">9091dd1e47c803100a1452e1d16d432c</sys_scope>
+        <sys_update_name>par_dashboard_widget_fca1943f479c83100a1452e1d16d432d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-23 16:54:43</sys_updated_on>
+        <visualization/>
+        <w>15</w>
+        <widget_props/>
+        <x>29</x>
+        <y>15</y>
+    </par_dashboard_widget>
+</record_update>
