@@ -42,16 +42,35 @@
             <label>Completed</label>
             <language>en</language>
             <name>x_221517_nowflix_media</name>
-            <sequence>200</sequence>
+            <sequence>300</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-04-13 17:48:11</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-04-13 17:48:18</sys_updated_on>
+            <sys_updated_on>2026-04-20 12:25:55</sys_updated_on>
             <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Duplicate</label>
+            <language>en</language>
+            <name>x_221517_nowflix_media</name>
+            <sequence>700</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-20 12:25:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-20 12:28:16</sys_updated_on>
+            <value>7</value>
         </sys_choice>
     </sys_choice>
 </record_update>
